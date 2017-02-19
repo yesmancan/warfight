@@ -1,0 +1,138 @@
+/* Standart Css */
+body{
+  background-color: #211F45;
+}
+.clearfix{
+  clear:both;
+}
+.fullwidth{
+  width: 100%;
+}
+.btn{
+  margin-top: 15px;
+}
+.pa{
+  position: absolute;
+}
+/* Standart Css And*/
+
+/* Oyun Alanı */
+#gamearea{
+  max-width: 350px;
+  margin: 0 auto;
+  border-bottom: 5px solid #06B025;
+}
+#chars{
+  width: 100%;
+  clear: both;
+  display: table;
+  margin-bottom: -5px;
+  position: relative;
+  height: 83px;
+}
+#char1{
+  float: left;
+  left: 0;
+}
+#char1 > .username{
+  width: 100%;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+#char2{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+#char2 > .username{
+  transform: scaleX(-1);
+  width: 100%;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+/* Oyun Alanı And*/
+
+/* Yaşam Barları Alanı */
+#bars{
+  width: 100%;
+  clear: both;
+  display: table;
+  margin-bottom: 30px;
+}
+#bars > #charbar1 > span,
+#bars > #charbar2 > span{
+  position: absolute;
+  font-size: 12px;
+  line-height: 20px;
+  text-indent: 5px;
+}
+#bars > #charbar2 > span{
+  right: 5px;
+}
+#charbar1{
+  float: left;
+}
+#charbar2{
+  position: relative;
+  float: right;
+}
+/* Yaşam Barları Alanı And*/
+
+/**/
+#playerarea{
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#player1{
+  float: left;
+}
+#player2{
+  float: right;
+}
+/**/
+.d1{
+  background-image: url('/img/durus/d1.png');
+  width: 33px;
+  height: 55px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.a4{
+  background-image: url('/img/attack/a4.png');
+  width: 33px;
+  height: 55px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.gamecontrol{
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.gamecontrolplayer1,
+.gamecontrolplayer2{
+  float: left;
+  width: 50%;
+}
+.fl{
+  float: left;
+}
+.button{
+  background-color: #ada9a9;
+  padding: 3px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #2D2D2D99;
+}
+.gamecontrol > div >div{
+  margin-bottom: 15px;
+  font-size: 1.14em;
+  font-family: arial;
+}

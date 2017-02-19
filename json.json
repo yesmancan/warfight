@@ -1,0 +1,16 @@
+{
+  "player1":{
+    "name":"",
+    "healt":"100",
+    "attack":5,
+    "live":true,
+    "online":false
+  },
+  "player2":{
+    "name":"",
+    "healt":"100",
+    "attack":5,
+    "live":true,
+    "online":false
+  }
+}
